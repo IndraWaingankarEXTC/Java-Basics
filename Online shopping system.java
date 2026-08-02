@@ -36,7 +36,7 @@ class Shopping extends Customer {
 	double price, total, discount, gst, finalAmount;
 
 	void acceptProduct() {
-		sc.nextLine(); // Clear leftover newline
+		sc.nextLine();
 
 		System.out.print("\nEnter Product Name: ");
 		product = sc.nextLine();
